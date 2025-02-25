@@ -47,7 +47,7 @@ header {
 }
 
 .logo img {
-    max-height: 70px;
+    max-height: 60px;
     padding-top: 10px;
 }
 
@@ -627,18 +627,4 @@ input {
     padding-bottom: 40px;
     font-style: italic;
     letter-spacing: 1px;
-}
-
-@media (max-width: 768px) {
-    .poster {
-        width: 45%;
-
-    }
-}
-
-@media (max-width: 480px) {
-    .poster {
-        width: 90%;
-
-    }
 }
