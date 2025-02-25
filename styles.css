@@ -326,7 +326,6 @@ form {
     padding: 40px;
     width: 100%;
     height: 100%;
-    backdrop-filter: brightness(60%);
     flex-direction: column;
     display: flex;
     gap: 5px;
@@ -340,7 +339,7 @@ form {
 }
 
 label {
-    color: rgba(255, 255, 255, 0.8);
+    color: rgba(255, 255, 255, 1);
     text-transform: uppercase;
     font-size: 10px;
     letter-spacing: 2px;
