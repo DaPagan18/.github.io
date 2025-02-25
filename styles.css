@@ -103,6 +103,12 @@ nav a:hover {
     color: white;
 }
 
+@media (max-width: 600px) {
+    .banner-area h2 {
+        font-size: 40px;
+    }
+}
+
 .content-area {
     width: 100%;
     height: 1900px;
