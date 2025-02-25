@@ -121,6 +121,12 @@ nav a:hover {
     font-family:'Varela Round';
 }
 
+@media (max-width: 600px) {
+    .content-area {
+        height: 3300px;
+    }
+}
+
 .dropdown {
     display: inline-block;
     text-align: left;
@@ -203,20 +209,6 @@ nav a:hover {
     display: block;
     margin: 10px;
 }
-
-/*@media (max-width: 768px) {
-    .poster {
-        width: 45%;
-
-    }
-}
-
-@media (max-width: 480px) {
-    .poster {
-        width: 90%;
-
-    }
-}*/
 
 .list-row {
     display: flex;
